@@ -52,6 +52,7 @@ namespace Assignment3
 
                     }
                     if (side1<0 || side2<0 || side3<0 || side1 + side2 <= side3 || side1 + side3 <= side2 || side3 + side2 <= side1)
+                    if (side1 + side2 <= side3 || side1 + side3 <= side2 || side3 + side2 <= side1)
                     {
                         Console.WriteLine("输入的三角形不合法，请重新输入！！！");
                         continue;
